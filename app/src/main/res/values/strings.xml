@@ -4,4 +4,6 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_inicio">inicioActivity</string>
+    <string name="roberto">Roberto</string>
+    <string name="productos">Producto</string>
 </resources>

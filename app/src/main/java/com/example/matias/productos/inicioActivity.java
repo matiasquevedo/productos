@@ -13,7 +13,7 @@ public class inicioActivity extends AppCompatActivity {
 
     private Button btn;
     private ImageButton btnRegistro;
-    private final String MSN = "MENSAJE ENVIADO";
+    private final String MSN = "MENSAJE Realizado";
 
     @SuppressLint("WrongViewCast")
     @Override

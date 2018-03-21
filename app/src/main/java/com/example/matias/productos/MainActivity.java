@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private TextView text;
+    public Toast msn = new  Toast(MainActivity.this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
         if (bundle != null && bundle.getString("mensaje") != null){
             String mensaje = bundle.getString("mensaje");
             Toast.makeText(MainActivity.this,mensaje,Toast.LENGTH_LONG).show();
+            Toast msn = new  Toast(MainActivity.this);
+            msn.makeText(MainActivity.this,"telefono",Toast.LENGTH_SHORT);
             text.setText(mensaje);
+            msn.show();
         } else {
             Toast.makeText(MainActivity.this,"Mensaje Vacio",Toast.LENGTH_LONG).show();
             text.setText("(Mensaje Vacio)");
