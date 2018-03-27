@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matias.productos.BlankFragment">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewImagenProducto"
+            android:layout_width="243dp"
+            android:layout_height="252dp"
+            android:src="@drawable/ic_launcher_foreground"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="49dp" />
+
+        <EditText
+            android:id="@+id/editTextPrecio"
+            android:layout_width="220dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="264dp"
+            tools:layout_editor_absoluteY="49dp" />
+
+        <EditText
+            android:id="@+id/editTextNombreProducto"
+            android:layout_width="312dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="264dp"
+            tools:layout_editor_absoluteY="115dp" />
+
+        <Button
+            android:id="@+id/buttonAdquirir"
+            android:layout_width="98dp"
+            android:layout_height="32dp"
+            android:background="@color/colorPrimary"
+            android:text="Adquirir"
+            tools:layout_editor_absoluteX="478dp"
+            tools:layout_editor_absoluteY="263dp" />
+
+        <EditText
+            android:id="@+id/editTextDescripcion"
+            android:layout_width="310dp"
+            android:layout_height="57dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="264dp"
+            tools:layout_editor_absoluteY="183dp" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

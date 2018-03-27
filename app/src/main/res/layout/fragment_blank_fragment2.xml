@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matias.productos.BlankFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewPortada"
+            android:layout_width="118dp"
+            android:layout_height="95dp"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="6dp" />
+
+        <EditText
+            android:id="@+id/editTextPrecio"
+            android:layout_width="123dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <EditText
+            android:id="@+id/editTextTituloProducto"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <ImageView
+            android:id="@+id/imageViewImagenDescripcion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="199dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+        <ImageView
+            android:id="@+id/imageViewImagenDescripcion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+        <ImageView
+            android:id="@+id/imageViewImagenDescripcion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+        <ImageView
+            android:id="@+id/imageViewImagenDescripcion4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="296dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+        <Button
+            android:id="@+id/buttonAdquirir"
+            android:layout_width="132dp"
+            android:layout_height="35dp"
+            android:background="@color/colorPrimary"
+            android:text="Adquirir"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="320dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarProductosRelacionados"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="383dp"
+            android:layout_height="54dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="362dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="171dp"
+            android:layout_height="21dp"
+            android:text="Porductos Relacionados"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="395dp" />
+
+        <ImageView
+            android:id="@+id/imageViewImagenRelacionada2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="433dp" />
+
+        <ImageView
+            android:id="@+id/imageViewImagenRelacionada3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="199dp"
+            tools:layout_editor_absoluteY="433dp" />
+
+        <ImageView
+            android:id="@+id/imageViewImagenRelacionada1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="433dp" />
+
+        <ImageView
+            android:id="@+id/imageViewImagenRelacionada4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="296dp"
+            tools:layout_editor_absoluteY="433dp" />
+
+        <EditText
+            android:id="@+id/editTextDescripcion"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
