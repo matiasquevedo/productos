@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.matias.productos">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,7 +26,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".registroActivity" />
-        <activity android:name=".ListaProdcutosActivity"></activity>
+        <activity android:name=".ListaProdcutosActivity" />
+        <activity android:name=".FacebookActivity" />
+        <activity android:name=".GoogleActivity" />
+        <activity android:name=".LinkedinActivity"></activity>
     </application>
 
 </manifest>
